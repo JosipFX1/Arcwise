@@ -1,0 +1,10 @@
+{
+	"title": "Vampire",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "carved_pumpkin"
+		}
+	},
+	"background": "textures/block/red_stained_glass.png"
+}

@@ -1,0 +1,10 @@
+{
+	"title": "Mining",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_pickaxe"
+		}
+	},
+	"background": "textures/block/iron_block.png"
+}

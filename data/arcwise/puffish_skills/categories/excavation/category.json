@@ -1,0 +1,10 @@
+{
+	"title": "Excavation",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_shovel"
+		}
+	},
+	"background": "textures/block/dirt.png"
+}

@@ -1,0 +1,10 @@
+{
+	"title": "Tough Guy",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "shield"
+		}
+	},
+	"background": "textures/block/bricks.png"
+}

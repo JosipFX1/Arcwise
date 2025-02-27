@@ -1,0 +1,222 @@
+{
+	"shovel_speed+5%": {
+		"title": "+5% Shovel Speed",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Your Shovel is slow? Fix it by unlocking this Skill and you will gain 5% more Speed with your Shovel!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Speed to your Shovel!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"fortune+5%": {
+		"title": "+5% Fortune",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "If 1 Dirt / Flint at time is not Enough, this skill grants you a chance to get 2 Blocks of Dirt / Flints or More! This skill costs 2 Points.",
+		"cost": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Fortune!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"mining_speed+5%": {
+		"title": "+5% Mining Speed",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Not enough speed? Increase it.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Mining Speed!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"wooden_shovel": {
+		"title": "Wooden Shovel",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Wooden Shovel, you receive '1' XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wooden_shovel"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"stone_shovel": {
+		"title": "Stone Shovel",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Stone Shovel, you receive '2' XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_shovel"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"golden_shovel": {
+		"title": "Golden Shovel",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Golden Shovel, you receive '2' XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_shovel"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"iron_shovel": {
+		"title": "Iron Shovel",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Iron Shovel, you receive '3' XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_shovel"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"diamond_shovel": {
+		"title": "Diamond Shovel",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Diamond Shovel, you receive '4' XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_shovel"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"netherite_shovel": {
+		"title": "Netherite Shovel",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Netherite Shovel, you receive '5' XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_shovel"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	}
+}

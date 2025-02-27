@@ -1,0 +1,222 @@
+{
+	"axe_speed+5%": {
+		"title": "+5% Axe Speed",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Your Axe is slow? Fix it by unlocking this Skill and you will gain 5% more Speed with your Axe!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Speed to your Axe!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"fortune+5%": {
+		"title": "+5% Fortune",
+		"description": "If 1 Log at time is not Enough, this skill grants you a chance to get 2 Logs or More! This skill costs 2 Points.",
+		"cost": 2,
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Fortune!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"mining_speed+5%": {
+		"title": "+5% Mining Speed",
+		"description": "Not enough speed? Increase it.",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Mining Speed!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"wooden_axe": {
+		"title": "Wooden Axe",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Wooden Axe, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wooden_axe"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"stone_axe": {
+		"title": "Stone Axe",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Stone Axe, you receive 2 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_axe"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"golden_axe": {
+		"title": "Golden Axe",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Golden Axe, you receive 2 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_axe"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"iron_axe": {
+		"title": "Iron Axe",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Iron Axe, you receive 3 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_axe"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"diamond_axe": {
+		"title": "Diamond Axe",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Diamond Axe, you receive 4 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"netherite_axe": {
+		"title": "Netherite Axe",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Netherite Axe, you receive 5 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_axe"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	}
+}

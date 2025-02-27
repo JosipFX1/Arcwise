@@ -1,0 +1,314 @@
+{
+	"rwncjhl3xhnff2r2": {
+		"definition": "fortune+5%",
+		"x": -448,
+		"y": 160,
+		"root": true
+	},
+	"8qqbg8jffy508epm": {
+		"definition": "fortune+5%",
+		"x": -448,
+		"y": 128,
+		"root": false
+	},
+	"9dspqf53fagk515t": {
+		"definition": "mining_speed+5%",
+		"x": -480,
+		"y": 128,
+		"root": false
+	},
+	"7fe4m8pn677bvgwp": {
+		"definition": "shovel_speed+5%",
+		"x": -480,
+		"y": 160,
+		"root": false
+	},
+	"uyq7paugnq548mh3": {
+		"definition": "shovel_speed+5%",
+		"x": -448,
+		"y": 192,
+		"root": false
+	},
+	"5fd53jwvyt39qa3t": {
+		"definition": "mining_speed+5%",
+		"x": -416,
+		"y": 192,
+		"root": false
+	},
+	"6180j5a9y5ingrp4": {
+		"definition": "fortune+5%",
+		"x": -416,
+		"y": 160,
+		"root": false
+	},
+	"b7pah8eim6rg0158": {
+		"definition": "shovel_speed+5%",
+		"x": -416,
+		"y": 128,
+		"root": false
+	},
+	"xbvu9768mhf9iigu": {
+		"definition": "shovel_speed+5%",
+		"x": -416,
+		"y": 96,
+		"root": false
+	},
+	"cdpm3brbbquh9egf": {
+		"definition": "mining_speed+5%",
+		"x": -384,
+		"y": 96,
+		"root": false
+	},
+	"p41fs4gfr4sbxrb0": {
+		"definition": "shovel_speed+5%",
+		"x": -384,
+		"y": 128,
+		"root": false
+	},
+	"q451k8mirqj0po5i": {
+		"definition": "mining_speed+5%",
+		"x": -384,
+		"y": 64,
+		"root": false
+	},
+	"xb1botjkfscvrsa1": {
+		"definition": "fortune+5%",
+		"x": -352,
+		"y": 64,
+		"root": false
+	},
+	"1m9f646fjf0my09u": {
+		"definition": "mining_speed+5%",
+		"x": -352,
+		"y": 96,
+		"root": false
+	},
+	"kf9v78w685wpd494": {
+		"definition": "fortune+5%",
+		"x": -352,
+		"y": 32,
+		"root": false
+	},
+	"ouulnirpaejd7lr0": {
+		"definition": "shovel_speed+5%",
+		"x": -320,
+		"y": 32,
+		"root": false
+	},
+	"ms4xcn8pp798b5gs": {
+		"definition": "fortune+5%",
+		"x": -320,
+		"y": 64,
+		"root": false
+	},
+	"9sty9al33eyc4mgd": {
+		"definition": "shovel_speed+5%",
+		"x": -320,
+		"y": 0,
+		"root": false
+	},
+	"pdz3o7w28jrudas4": {
+		"definition": "mining_speed+5%",
+		"x": -288,
+		"y": 0,
+		"root": false
+	},
+	"iqdvkqvaiyjuk0rv": {
+		"definition": "shovel_speed+5%",
+		"x": -288,
+		"y": 32,
+		"root": false
+	},
+	"mc4cdtqihrwqb4ro": {
+		"definition": "mining_speed+5%",
+		"x": -288,
+		"y": -32,
+		"root": false
+	},
+	"03mrrq3yth7t4kvn": {
+		"definition": "shovel_speed+5%",
+		"x": -256,
+		"y": -32,
+		"root": false
+	},
+	"qxk3ur53ph6cgbqb": {
+		"definition": "mining_speed+5%",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"sfv5r6cba7bzgpn2": {
+		"definition": "fortune+5%",
+		"x": -224,
+		"y": -32,
+		"root": false
+	},
+	"6fulfpyk5jcgb0nb": {
+		"definition": "shovel_speed+5%",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"tp12team145yervy": {
+		"definition": "mining_speed+5%",
+		"x": -160,
+		"y": -32,
+		"root": false
+	},
+	"jg5aqilraihup2p9": {
+		"definition": "shovel_speed+5%",
+		"x": -128,
+		"y": -64,
+		"root": false
+	},
+	"1lz5lzy7jh35r7b2": {
+		"definition": "mining_speed+5%",
+		"x": -96,
+		"y": -96,
+		"root": false
+	},
+	"76hsguzkguuprjx5": {
+		"definition": "shovel_speed+5%",
+		"x": -96,
+		"y": -128,
+		"root": false
+	},
+	"0nxtvgbuvbcpxfb1": {
+		"definition": "fortune+5%",
+		"x": -96,
+		"y": -160,
+		"root": false
+	},
+	"2smmjdq0lga4f8x2": {
+		"definition": "fortune+5%",
+		"x": -128,
+		"y": -192,
+		"root": false
+	},
+	"49b7hiqqvemfxnot": {
+		"definition": "shovel_speed+5%",
+		"x": -160,
+		"y": -192,
+		"root": false
+	},
+	"lk9v0p9fbuccm6ua": {
+		"definition": "mining_speed+5%",
+		"x": -192,
+		"y": -192,
+		"root": false
+	},
+	"yuca20eg2neqmctr": {
+		"definition": "shovel_speed+5%",
+		"x": -224,
+		"y": -160,
+		"root": false
+	},
+	"7ncsr03il57smqdj": {
+		"definition": "mining_speed+5%",
+		"x": -256,
+		"y": -128,
+		"root": false
+	},
+	"x3xdiy4k1vnp6zat": {
+		"definition": "shovel_speed+5%",
+		"x": 352,
+		"y": -192,
+		"root": true
+	},
+	"3b6y96ehrentdp8u": {
+		"definition": "shovel_speed+5%",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"hq42f9mv3cngx5vo": {
+		"definition": "mining_speed+5%",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"umt45vnk0l4no41i": {
+		"definition": "shovel_speed+5%",
+		"x": 192,
+		"y": -32,
+		"root": false
+	},
+	"zbbkiltcf181agoa": {
+		"definition": "mining_speed+5%",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"eqwu32ymnr56g5re": {
+		"definition": "shovel_speed+5%",
+		"x": 352,
+		"y": 0,
+		"root": false
+	},
+	"muth3a8m9kf0sw6x": {
+		"definition": "fortune+5%",
+		"x": 352,
+		"y": 96,
+		"root": false
+	},
+	"g201mgdwkja4lent": {
+		"definition": "fortune+5%",
+		"x": 288,
+		"y": 160,
+		"root": false
+	},
+	"5kdcimro27lm3ftb": {
+		"definition": "fortune+5%",
+		"x": 192,
+		"y": 160,
+		"root": false
+	},
+	"va1a4kzwxhe0w2xs": {
+		"definition": "shovel_speed+5%",
+		"x": -288,
+		"y": -96,
+		"root": false
+	},
+	"fwuesc7z65wb604o": {
+		"definition": "fortune+5%",
+		"x": -256,
+		"y": -64,
+		"root": false
+	},
+	"11jliwaexi4xhumc": {
+		"definition": "wooden_shovel",
+		"x": 32,
+		"y": -256,
+		"root": false
+	},
+	"ualpsoqtgk0utsna": {
+		"definition": "golden_shovel",
+		"x": 32,
+		"y": -160,
+		"root": false
+	},
+	"hvzt268baikinpfp": {
+		"definition": "stone_shovel",
+		"x": 32,
+		"y": -64,
+		"root": false
+	},
+	"dypb3594hy5w6pl1": {
+		"definition": "iron_shovel",
+		"x": 32,
+		"y": 32,
+		"root": false
+	},
+	"h24rupwiennbbl59": {
+		"definition": "diamond_shovel",
+		"x": 32,
+		"y": 128,
+		"root": false
+	},
+	"9i7qwii9xqd7casp": {
+		"definition": "netherite_shovel",
+		"x": 32,
+		"y": 224,
+		"root": false
+	}
+}

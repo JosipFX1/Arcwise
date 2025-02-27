@@ -1,0 +1,327 @@
+{
+	"magic_resistance+5%": {
+		"title": "+5% Magic Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Become more resistant to Magic Damage (Potions ...)",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Magic Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"melee_resistance+5%": {
+		"title": "+5% Melee Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Become more resistant to Melee Damage (Swords ...)",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Melee Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"ranged_resistance+5%": {
+		"title": "+5% Ranged Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Become more resistant to Ranged Damage (Bows, Crossbows ...)",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Ranged Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"resistance+5%": {
+		"title": "+5% Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Become more resistant to any type of Damage!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"sprinting_speed+5%": {
+		"title": "+5% Sprinting Speed",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "Run faster by 5%!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Sprinting Speed!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"stamina+10%": {
+		"title": "+10% Stamina",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"cost": 3,
+		"description": "+10% More Stamina, which allows to run more!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hunger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more stamina!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"bread": {
+		"title": "Bread",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Bread, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bread"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"apple": {
+		"title": "Apple",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Apple, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apple"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"melon_slice": {
+		"title": "Melon",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Melon, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "melon_slice"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cooked_beef": {
+		"title": "Cooked Steak",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cooked Steak, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cooked_beef"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"baked_potato": {
+		"title": "Baked Potato",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Baked Potato, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "baked_potato"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"carrot": {
+		"title": "Carrot",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Carrot, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "carrot"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	}
+}

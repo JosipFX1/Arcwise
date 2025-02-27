@@ -1,0 +1,178 @@
+{
+	"armor_shred+5%": {
+		"title": "+5% Armor Shred",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "When you attack an Entity, you decrease their armor by 5%. Consider unlocking this before Resistance and Toughness Shred!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% Armor Shred!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"toughness_shred+5%": {
+		"title": "+5% Toughness Shred",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "When you attack an Entity, you decrease their toughness by 5%. Should only be unlocked when you unlock Armor and Protection Shred!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "glowing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:toughness_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% Toughness Shred!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"protection_shred+5%": {
+		"title": "+5% Protection Shred",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "When you attack an Entity, you decrease their protection by 5%.  Consider unlocking this before Resistance and Toughness Shred!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "weaving"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:protection_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% Protection Shred!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"resistance_shred+5%": {
+		"title": "+5% Resistance Shred",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "When you attack an Entity, you decrease their resistance by 5%. Should only be unlocked when you unlock Armor and Protection Shred!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wither"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% Resistance Shred!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"lifesteal+1": {
+		"title": "Lifesteal +1",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"cost": "3",
+		"description": "When you deal damage to an Entity, you will restore Half a Heart. By unlocking this skill you will increase recovering of Health by Half a Heart! This skill costs 3 Points.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "conduit_power"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say +1 Added! Now you restore Half a Heart more of missing Health (0.5 More Heart)"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	}
+}

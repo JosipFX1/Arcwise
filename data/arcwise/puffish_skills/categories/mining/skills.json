@@ -1,0 +1,584 @@
+{
+	"8nvm6s2rr5g2rrpu": {
+		"definition": "pickaxe_speed+5%",
+		"x": -544,
+		"y": 128,
+		"root": false
+	},
+	"it9qmzy32acdm7c8": {
+		"definition": "mining_speed+5%",
+		"x": -576,
+		"y": 160,
+		"root": false
+	},
+	"v64esj3q59ltwi9t": {
+		"definition": "fortune+5%",
+		"x": -576,
+		"y": 192,
+		"root": false
+	},
+	"3g5mntqgtzdcsebj": {
+		"definition": "mining_speed+5%",
+		"x": -544,
+		"y": 192,
+		"root": false
+	},
+	"kkb066658jgbuegq": {
+		"definition": "pickaxe_speed+5%",
+		"x": -512,
+		"y": 160,
+		"root": false
+	},
+	"lu9y2wcge0t2bhqp": {
+		"definition": "mining_speed+5%",
+		"x": -512,
+		"y": 128,
+		"root": false
+	},
+	"x1b4x4jc8s618u3u": {
+		"definition": "fortune+5%",
+		"x": -512,
+		"y": 96,
+		"root": false
+	},
+	"29pwrnhfzrr7pl1g": {
+		"definition": "fortune+5%",
+		"x": -480,
+		"y": 96,
+		"root": false
+	},
+	"wjl46sa6eavfe8j3": {
+		"definition": "fortune+5%",
+		"x": -480,
+		"y": 128,
+		"root": false
+	},
+	"ft1hdy82dx3o872s": {
+		"definition": "mining_speed+5%",
+		"x": -480,
+		"y": 64,
+		"root": false
+	},
+	"q6n0b2mjjk6h40p6": {
+		"definition": "mining_speed+5%",
+		"x": -448,
+		"y": 64,
+		"root": false
+	},
+	"y75bq2vnzjl6j0lk": {
+		"definition": "mining_speed+5%",
+		"x": -448,
+		"y": 96,
+		"root": false
+	},
+	"3ebss3ggv6e4w97x": {
+		"definition": "pickaxe_speed+5%",
+		"x": -448,
+		"y": 32,
+		"root": false
+	},
+	"qugehxrspkqdya09": {
+		"definition": "fortune+5%",
+		"x": -416,
+		"y": 32,
+		"root": false
+	},
+	"bb91w533ir0g7xj9": {
+		"definition": "pickaxe_speed+5%",
+		"x": -416,
+		"y": 64,
+		"root": false
+	},
+	"8h6axfrk1zvokmr5": {
+		"definition": "fortune+5%",
+		"x": -416,
+		"y": 0,
+		"root": false
+	},
+	"jul2jqqpn0gc5t5o": {
+		"definition": "mining_speed+5%",
+		"x": -384,
+		"y": 0,
+		"root": false
+	},
+	"963pdawqskz6d0gv": {
+		"definition": "fortune+5%",
+		"x": -384,
+		"y": 32,
+		"root": false
+	},
+	"675u44c05uts87jr": {
+		"definition": "mining_speed+5%",
+		"x": -384,
+		"y": -32,
+		"root": false
+	},
+	"auctz0z3npiwyg7x": {
+		"definition": "pickaxe_speed+5%",
+		"x": -352,
+		"y": -32,
+		"root": false
+	},
+	"kmc9owwjnkk7cj3k": {
+		"definition": "mining_speed+5%",
+		"x": -352,
+		"y": 0,
+		"root": false
+	},
+	"quwdz6c55t6qemxc": {
+		"definition": "pickaxe_speed+5%",
+		"x": -352,
+		"y": -64,
+		"root": false
+	},
+	"sr0hhwpby3htnef7": {
+		"definition": "mining_speed+5%",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"ch2f84q1cxu1ahrt": {
+		"definition": "pickaxe_speed+5%",
+		"x": -320,
+		"y": -32,
+		"root": false
+	},
+	"ankf9c58xzonwr0h": {
+		"definition": "pickaxe_speed+5%",
+		"x": -320,
+		"y": -96,
+		"root": false
+	},
+	"524unq5dk3cuxxrf": {
+		"definition": "fortune+5%",
+		"x": -288,
+		"y": -64,
+		"root": false
+	},
+	"h7ergseb43mgvwzg": {
+		"definition": "mining_speed+5%",
+		"x": -352,
+		"y": -128,
+		"root": false
+	},
+	"kh1wrynp5wqwtb1i": {
+		"definition": "pickaxe_speed+5%",
+		"x": -384,
+		"y": -128,
+		"root": false
+	},
+	"2kkog4bgrp8voy5m": {
+		"definition": "fortune+5%",
+		"x": -416,
+		"y": -128,
+		"root": false
+	},
+	"buhilu1u6uhmw5kd": {
+		"definition": "pickaxe_speed+5%",
+		"x": -448,
+		"y": -128,
+		"root": false
+	},
+	"8z2attosv16h73wo": {
+		"definition": "mining_speed+5%",
+		"x": -480,
+		"y": -160,
+		"root": false
+	},
+	"vr7efvj4sj7wiu12": {
+		"definition": "fortune+5%",
+		"x": -448,
+		"y": -192,
+		"root": false
+	},
+	"umerqm3ehzwup8db": {
+		"definition": "pickaxe_speed+5%",
+		"x": -416,
+		"y": -192,
+		"root": false
+	},
+	"42142yz64lu504av": {
+		"definition": "mining_speed+5%",
+		"x": -384,
+		"y": -192,
+		"root": false
+	},
+	"2khx1828wl0b3xcu": {
+		"definition": "fortune+5%",
+		"x": -352,
+		"y": -192,
+		"root": false
+	},
+	"bzgyut6p98anm3ht": {
+		"definition": "pickaxe_speed+5%",
+		"x": -320,
+		"y": -192,
+		"root": false
+	},
+	"2xldhf730rb6ii2k": {
+		"definition": "mining_speed+5%",
+		"x": -288,
+		"y": -160,
+		"root": false
+	},
+	"tdf30kt3x9or27vy": {
+		"definition": "pickaxe_speed+5%",
+		"x": -256,
+		"y": -160,
+		"root": false
+	},
+	"cuvu3k3cef746qfn": {
+		"definition": "mining_speed+5%",
+		"x": -224,
+		"y": -160,
+		"root": false
+	},
+	"d30p9h9mavp3ho4y": {
+		"definition": "pickaxe_speed+5%",
+		"x": -224,
+		"y": -128,
+		"root": false
+	},
+	"rveaexjv6cjafeco": {
+		"definition": "mining_speed+5%",
+		"x": -224,
+		"y": -96,
+		"root": false
+	},
+	"bkm2ai996ubzdfiw": {
+		"definition": "pickaxe_speed+5%",
+		"x": -192,
+		"y": -64,
+		"root": false
+	},
+	"wjuv0ikfglem6xpv": {
+		"definition": "mining_speed+5%",
+		"x": -192,
+		"y": -32,
+		"root": false
+	},
+	"hwjlmii6iz9yt0jg": {
+		"definition": "fortune+5%",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"j9g3bv176fr5drda": {
+		"definition": "mining_speed+5%",
+		"x": -192,
+		"y": 32,
+		"root": false
+	},
+	"rxppgi5pxlb4g8ra": {
+		"definition": "fortune+5%",
+		"x": -192,
+		"y": 64,
+		"root": false
+	},
+	"hqvf1csly3kskl63": {
+		"definition": "mining_speed+5%",
+		"x": -192,
+		"y": 96,
+		"root": false
+	},
+	"vzng630t5qu7v7qh": {
+		"definition": "pickaxe_speed+5%",
+		"x": -224,
+		"y": 128,
+		"root": false
+	},
+	"vfoac8s1bqfu8rbp": {
+		"definition": "mining_speed+5%",
+		"x": -256,
+		"y": 96,
+		"root": false
+	},
+	"5cup5pusntqvcxm3": {
+		"definition": "fortune+5%",
+		"x": -256,
+		"y": 64,
+		"root": false
+	},
+	"qmhckuukqaf9560k": {
+		"definition": "mining_speed+5%",
+		"x": -256,
+		"y": 32,
+		"root": false
+	},
+	"oi5v4po0dvopnk93": {
+		"definition": "fortune+5%",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"3zh53mpm0zfv5zne": {
+		"definition": "mining_speed+5%",
+		"x": -256,
+		"y": -32,
+		"root": false
+	},
+	"m3uu52j2uj13111g": {
+		"definition": "fortune+5%",
+		"x": 224,
+		"y": 192,
+		"root": false
+	},
+	"yd0h6wllehpaklnj": {
+		"definition": "fortune+5%",
+		"x": 256,
+		"y": 192,
+		"root": false
+	},
+	"kcnq1x4a8u48rzoc": {
+		"definition": "fortune+5%",
+		"x": 288,
+		"y": 192,
+		"root": true
+	},
+	"0e5z7jiains1p71k": {
+		"definition": "fortune+5%",
+		"x": 320,
+		"y": 192,
+		"root": false
+	},
+	"q6l1q9ycox2yya26": {
+		"definition": "fortune+5%",
+		"x": 352,
+		"y": 192,
+		"root": false
+	},
+	"0zhir86hg4gh6iyi": {
+		"definition": "fortune+5%",
+		"x": 384,
+		"y": 192,
+		"root": false
+	},
+	"vezoew1npol6bzet": {
+		"definition": "fortune+5%",
+		"x": 416,
+		"y": 160,
+		"root": false
+	},
+	"54s0rvly2jfitncn": {
+		"definition": "fortune+5%",
+		"x": 448,
+		"y": 128,
+		"root": false
+	},
+	"wxcxzd2z6rkqnctf": {
+		"definition": "fortune+5%",
+		"x": 448,
+		"y": 96,
+		"root": false
+	},
+	"rvipfjg57iqtk26a": {
+		"definition": "fortune+5%",
+		"x": 480,
+		"y": 64,
+		"root": false
+	},
+	"6pl52e2ekli2wr59": {
+		"definition": "fortune+5%",
+		"x": 480,
+		"y": 32,
+		"root": false
+	},
+	"zq54rubytklysvg9": {
+		"definition": "fortune+5%",
+		"x": 480,
+		"y": 0,
+		"root": false
+	},
+	"jasylngm0opcq7uh": {
+		"definition": "fortune+5%",
+		"x": 480,
+		"y": -32,
+		"root": false
+	},
+	"rql0kn7koghrihbz": {
+		"definition": "fortune+5%",
+		"x": 448,
+		"y": -64,
+		"root": false
+	},
+	"t8essevdcfa50tgx": {
+		"definition": "fortune+5%",
+		"x": 448,
+		"y": -96,
+		"root": false
+	},
+	"to5s7hh9mr5zqwt4": {
+		"definition": "fortune+5%",
+		"x": 416,
+		"y": -128,
+		"root": false
+	},
+	"yh8tzvmzgp3npoye": {
+		"definition": "fortune+5%",
+		"x": 384,
+		"y": -160,
+		"root": false
+	},
+	"1v9x6gq7vpqdwclb": {
+		"definition": "fortune+5%",
+		"x": 352,
+		"y": -192,
+		"root": false
+	},
+	"ahbkc6t8kbz43ohz": {
+		"definition": "fortune+5%",
+		"x": 320,
+		"y": -192,
+		"root": false
+	},
+	"7iaihpgz7bv275ae": {
+		"definition": "fortune+5%",
+		"x": 288,
+		"y": -192,
+		"root": false
+	},
+	"l007jexyn79kvfpx": {
+		"definition": "fortune+5%",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"geof50btwg9dmz0n": {
+		"definition": "fortune+5%",
+		"x": 192,
+		"y": 160,
+		"root": false
+	},
+	"flhj9n085eyz4z6h": {
+		"definition": "fortune+5%",
+		"x": 160,
+		"y": 128,
+		"root": false
+	},
+	"5mz3ewnp86nso4wa": {
+		"definition": "fortune+5%",
+		"x": 160,
+		"y": 96,
+		"root": false
+	},
+	"5f5iloirle0qm2q9": {
+		"definition": "fortune+5%",
+		"x": 128,
+		"y": 64,
+		"root": false
+	},
+	"aweirfhg11efj4ar": {
+		"definition": "fortune+5%",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"v6o93pmmtjhzfm6j": {
+		"definition": "fortune+5%",
+		"x": 128,
+		"y": 32,
+		"root": false
+	},
+	"84d60fbxbfuskwtq": {
+		"definition": "fortune+5%",
+		"x": 128,
+		"y": -32,
+		"root": false
+	},
+	"kfnk2syq105shjkr": {
+		"definition": "fortune+5%",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"06y7zfmf02pg1io5": {
+		"definition": "fortune+5%",
+		"x": 160,
+		"y": -96,
+		"root": false
+	},
+	"fg04fbmx9p7p0tdn": {
+		"definition": "fortune+5%",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"rbtjxlld0cxfd0ly": {
+		"definition": "fortune+5%",
+		"x": 224,
+		"y": -160,
+		"root": false
+	},
+	"c3e7dnfqzyyuqyjh": {
+		"definition": "fortune+5%",
+		"x": -544,
+		"y": 160,
+		"root": true
+	},
+	"tk9oesbo3ieunjbt": {
+		"definition": "wooden_pickaxe",
+		"x": -96,
+		"y": -224,
+		"root": false
+	},
+	"r1kll4v3yxf9okbp": {
+		"definition": "stone_pickaxe",
+		"x": -96,
+		"y": -128,
+		"root": false
+	},
+	"rp27p4po1kjdvw96": {
+		"definition": "golden_pickaxe",
+		"x": -96,
+		"y": -32,
+		"root": false
+	},
+	"cp5mi0v9rv26m6fv": {
+		"definition": "iron_pickaxe",
+		"x": -96,
+		"y": 64,
+		"root": false
+	},
+	"6tgqgyempp024s6t": {
+		"definition": "diamond_pickaxe",
+		"x": -96,
+		"y": 160,
+		"root": false
+	},
+	"nh0scon7fguxyjx8": {
+		"definition": "netherite_pickaxe",
+		"x": -96,
+		"y": 256,
+		"root": false
+	},
+	"8b7cybu2g9ql4vms": {
+		"definition": "coal",
+		"x": 32,
+		"y": -224,
+		"root": false
+	},
+	"f0bdxyf2d5qr1mkr": {
+		"definition": "copper",
+		"x": 32,
+		"y": -128,
+		"root": false
+	},
+	"bnkm02zrhi6spmv5": {
+		"definition": "iron",
+		"x": 32,
+		"y": -32,
+		"root": false
+	},
+	"pyugt9ax7zxj3hi8": {
+		"definition": "lapis",
+		"x": 32,
+		"y": 64,
+		"root": false
+	},
+	"semswqy1kay96nme": {
+		"definition": "redstone",
+		"x": 32,
+		"y": 160,
+		"root": false
+	}
+}

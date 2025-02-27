@@ -1,0 +1,29 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2 + 300, 500)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"dealt_damage": {
+						"operations": [
+							{ 
+								"type": "get_dealt_damage"
+							}
+						]
+					}
+				},
+				"experience": [ 
+					{
+						"expression": "dealt_damage * 0.25"
+					}
+				]
+			}
+		}
+	]
+}

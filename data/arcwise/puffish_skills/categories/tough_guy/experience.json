@@ -1,0 +1,140 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2 + 100, 500)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:take_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_taken_damage"
+							}
+						]
+					}
+				},
+				"experience": [ 
+					{
+						"expression": "damage * 0.25"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_bread": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:bread"
+							}
+						}
+					]
+				},
+					"is_apple": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:apple"
+							}
+						}
+					]
+				},
+					"is_melon": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:melon_slice"
+							}
+						}
+					]
+				},
+					"is_steak": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cooked_beef"
+							}
+						}
+					]
+				},
+					"is_baked_potato": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:baked_potato"
+							}
+						}
+					]
+				},
+					"is_carrot": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:carrot"
+							}
+						}
+					]
+				}
+				},
+				"experience": [ 
+					{
+						"expression": 1,
+						"condition": "is_bread"
+					},
+					{
+						"expression": 1,
+						"condition": "is_apple"
+					},
+					{
+						"expression": 1,
+						"condition": "is_melon"
+					},
+					{
+						"expression": 1,
+						"condition": "is_steak"
+					},
+					{
+						"expression": 1,
+						"condition": "is_baked_potato"
+					},
+					{
+						"expression": 1,
+						"condition": "is_carrot"
+					}
+				]
+			}
+		}
+	]
+}

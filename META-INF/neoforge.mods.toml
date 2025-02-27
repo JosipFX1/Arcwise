@@ -1,0 +1,11 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="Mozilla Public License 2.0"
+
+[[mods]]
+modId="arcwise"
+version="1.0"
+displayName="Arcwise"
+description="Arcwise blesses you with Wise Tree! Uses Pufferfish Skills & Attributes to make your Experience Better!"
+authors="JosipFX"
+logoFile="/arcwise.png"

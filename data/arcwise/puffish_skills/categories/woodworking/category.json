@@ -1,0 +1,10 @@
+{
+	"title": "Tough Guy",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_axe"
+		}
+	},
+	"background": "textures/block/oak_log.png"
+}

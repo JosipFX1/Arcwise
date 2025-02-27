@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "arcwise",
+	"version": "1.0",
+	"icon": "/arcwise.png",
+	"name": "Arcwise",
+	"description": "Arcwise blesses you with Wise Tree! Uses Pufferfish Skills & Attributes to make your Experience Better!",
+	"authors": [
+		"JosipFX"
+	],
+	"license": "Mozilla Public License 2.0",
+	"environment": "*",
+	"custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.discord": "https://discord.gg/MmJ3PQWVSS"
+            }
+		}
+	}
+}

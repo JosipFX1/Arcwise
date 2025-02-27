@@ -1,0 +1,507 @@
+{
+	"health+2": {
+		"title": "+1 Heart",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "Why keep it 10 Hearts when you can have more! This skill Costs 2 Points.",
+		"cost": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 1 More Heart!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"attack_speed+5%": {
+		"title": "+5% Attack Speed",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "By unlocking this Skill you will Attack Entities faster by 5%!",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Attack Speed!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xucv5hwuz5e4wcef"
+		}
+	},
+	"ranged_damage+5%": {
+		"title": "+5% Ranged Damage",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "By unlocking this Skill your Bow & Crossbow will Deal 5% more Damage!",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Ranged Damage!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	},
+	"melee_damage+5%": {
+		"title": "+5% Melee Damage",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "By unlocking this Skill your Melee Weapons will Deal 5% more Damage!",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Melee Damage!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	},
+	"knockback+5%": {
+		"title": "+5% Knockback",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "By unlocking this Skill you will Deal 5% more Knockback to Entities! This skill Costs 2 Points.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:knockback",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Knockback!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0hs54n3bamwk7j8g"
+		}
+	},
+	"resistance+5%": {
+		"title": "+5% Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "By unlocking this Skill you will receive 5% more Resistance!",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wuhn0i4qv5kivcu4"
+		}
+	},
+	"attack_speed+10%": {
+		"title": "+10% Attack Speed",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"cost": 2,
+		"description": "By unlocking this Skill you will Attack Entities faster by 10%! This skill costs 2 Points.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attack_speed",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 10% more Attack Speed!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xucv5hwuz5e4wcef"
+		}
+	},
+	"ranged_damage+10%": {
+		"title": "+10% Ranged Damage",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"cost": 2,
+		"description": "By unlocking this Skill your Bow & Crossbow will Deal 10% more Damage! This skill costs 2 Points.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 10% more Ranged Damage!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	},
+	"melee_damage+10%": {
+		"title": "+10% Melee Damage",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"cost": 2,
+		"description": "By unlocking this Skill your Melee Weapons will Deal 10% more Damage! This skill costs 2 Points.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 10% more Melee Damage!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	},
+	"knockback+10%": {
+		"title": "+10% Knockback",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "By unlocking this Skill you will Deal 10% more Knockback to Entities! This skill Costs 2 Points.",
+		"cost": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:knockback",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 10% more Knockback!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0hs54n3bamwk7j8g"
+		}
+	},
+	"resistance+10%": {
+		"title": "+10% Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"cost": 2,
+		"description": "By unlocking this Skill you will receive 10% more Resistance! This skill costs 2 Points.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 10% more Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wuhn0i4qv5kivcu4"
+		}
+	},
+	"wooden_sword": {
+		"title": "Wooden Sword",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Wooden Sword, you receive '1' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wooden_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"stone_sword": {
+		"title": "Stone Sword",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Stone Sword, you receive '2' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"golden_sword": {
+		"title": "Golden Sword",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Golden Sword, you receive '2' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"iron_sword": {
+		"title": "Iron Sword",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Iron Sword, you receive '3' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"diamond_sword": {
+		"title": "Diamond Sword",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Diamond Sword, you receive '4' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"netherite_sword": {
+		"title": "Netherite Sword",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Netherite Sword, you receive '5' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	}
+}

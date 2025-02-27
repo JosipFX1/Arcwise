@@ -1,0 +1,223 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2 + 100, 500)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"is_stone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#mineable/pickaxe"
+								}
+							}
+						]
+					},
+					"is_wooden_pickaxe": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "wooden_pickaxe"
+								}
+							}
+						]
+					},
+					"is_stone_pickaxe": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_pickaxe"
+								}
+							}
+						]
+					},
+					"is_golden_pickaxe": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_pickaxe"
+								}
+							}
+						]
+					},
+					"is_iron_pickaxe": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_pickaxe"
+								}
+							}
+						]
+					},
+					"is_diamond_pickaxe": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_pickaxe"
+								}
+							}
+						]
+					},
+					"is_netherite_pickaxe": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "netherite_pickaxe"
+								}
+							}
+						]
+					},
+					"is_coal": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "coal_ore"
+								}
+							}
+						]
+					},
+					"is_iron": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "iron_ore"
+								}
+							}
+						]
+					},
+					"is_copper": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "copper_ore"
+								}
+							}
+						]
+					},
+					"is_lapis": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "lapis_ore"
+								}
+							}
+						]
+					},
+					"is_redstone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "redstone_ore"
+								}
+							}
+						]
+					}
+				},
+				"experience": [ 
+					{
+						"condition": "is_stone",
+						"expression": 1
+					},
+					{
+						"condition": "is_wooden_pickaxe",
+						"expression": 1
+					},
+					{
+						"condition": "is_stone_pickaxe",
+						"expression": 2
+					},
+					{
+						"condition": "is_golden_pickaxe",
+						"expression": 2
+					},
+					{
+						"condition": "is_iron_pickaxe",
+						"expression": 3
+					},
+					{
+						"condition": "is_diamond_pickaxe",
+						"expression": 4
+					},
+					{
+						"condition": "is_netherite_pickaxe",
+						"expression": 5
+					},
+					{
+						"condition": "is_coal",
+						"expression": 1
+					},
+					{
+						"condition": "is_copper",
+						"expression": 2
+					},
+					{
+						"condition": "is_iron",
+						"expression": 2
+					},
+					{
+						"condition": "is_lapis",
+						"expression": 3
+					},
+					{
+						"condition": "is_redstone",
+						"expression": 3
+					}
+				]
+			}
+		}
+	]
+}

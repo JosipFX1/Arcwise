@@ -1,0 +1,10 @@
+{
+	"title": "Combat",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_sword"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+}

@@ -1,0 +1,145 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2 + 100, 500)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_wooden_sword": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "wooden_sword"
+								}
+							}
+						]
+					},
+					"is_stone_sword": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_sword"
+								}
+							}
+						]
+					},
+					"is_golden_sword": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_sword"
+								}
+							}
+						]
+					},
+					"is_iron_sword": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_sword"
+								}
+							}
+						]
+					},
+					"is_diamond_sword": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_sword"
+								}
+							}
+						]
+					},
+					"is_netherite_sword": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "netherite_sword"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"expression": "dropped_xp + max_health / 20"
+					},
+					{
+						"condition": "is_wooden_sword",
+						"expression": 1
+					},
+					{
+						"condition": "is_stone_sword",
+						"expression": 2
+					},
+					{
+						"condition": "is_golden_sword",
+						"expression": 2
+					},
+					{
+						"condition": "is_iron_sword",
+						"expression": 3
+					},
+					{
+						"condition": "is_diamond_sword",
+						"expression": 4
+					},
+					{
+						"condition": "is_netherite_sword",
+						"expression": 5
+					}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 60
+				}
+			}
+		}
+	]
+}

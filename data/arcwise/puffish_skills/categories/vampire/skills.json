@@ -1,0 +1,362 @@
+{
+	"nrs16u8ggn8998lt": {
+		"definition": "armor_shred+5%",
+		"x": -160,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"fzlbewttqjbhcar7": {
+		"definition": "toughness_shred+5%",
+		"x": 160,
+		"y": 92.37604307034012,
+		"root": false
+	},
+	"hgcn9dxjof8aoss9": {
+		"definition": "protection_shred+5%",
+		"x": 160,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"h4xgn7ta0tco1uv7": {
+		"definition": "resistance_shred+5%",
+		"x": -160,
+		"y": 92.37604307034012,
+		"root": false
+	},
+	"aa2729aydrrtcm79": {
+		"definition": "armor_shred+5%",
+		"x": -256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"5knnagfa8sgbuykg": {
+		"definition": "armor_shred+5%",
+		"x": -160,
+		"y": -314.0785464391564,
+		"root": false
+	},
+	"zua8afc3ama7ojgm": {
+		"definition": "armor_shred+5%",
+		"x": -64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"9o7jr05c1w1n1sly": {
+		"definition": "armor_shred+5%",
+		"x": -256,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"5131xzmcrp1qts36": {
+		"definition": "armor_shred+5%",
+		"x": -64,
+		"y": -369.5041722813605,
+		"root": false
+	},
+	"5noe1lsrqivfmbvl": {
+		"definition": "armor_shred+5%",
+		"x": -320,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"4lxlemgykv4o5ogt": {
+		"definition": "armor_shred+5%",
+		"x": 0,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"lknkd3h2klm06pub": {
+		"definition": "armor_shred+5%",
+		"x": -96,
+		"y": -572.7314670361087,
+		"root": false
+	},
+	"v743fu2967shlca7": {
+		"definition": "armor_shred+5%",
+		"x": -160,
+		"y": -535.7810498079726,
+		"root": false
+	},
+	"khrgz6fp7c5h008j": {
+		"definition": "armor_shred+5%",
+		"x": -224,
+		"y": -572.7314670361087,
+		"root": false
+	},
+	"756hf5gplkqr01qy": {
+		"definition": "armor_shred+5%",
+		"x": -160,
+		"y": -646.6323014923807,
+		"root": false
+	},
+	"vsnwnh2wagktrwqe": {
+		"definition": "protection_shred+5%",
+		"x": 192,
+		"y": 0,
+		"root": false
+	},
+	"purvqgqu9m0yg2xd": {
+		"definition": "protection_shred+5%",
+		"x": 288,
+		"y": -92.37604307034007,
+		"root": false
+	},
+	"2ompxjuyah6f13my": {
+		"definition": "protection_shred+5%",
+		"x": 416,
+		"y": -92.37604307034013,
+		"root": false
+	},
+	"yeg53fxdiep43foh": {
+		"definition": "protection_shred+5%",
+		"x": 608,
+		"y": -92.37604307034013,
+		"root": false
+	},
+	"65wyaqj6pnruacnk": {
+		"definition": "protection_shred+5%",
+		"x": 544,
+		"y": -92.37604307034007,
+		"root": false
+	},
+	"vud4wi7ac7w6fg2v": {
+		"definition": "protection_shred+5%",
+		"x": 224,
+		"y": -92.37604307034013,
+		"root": false
+	},
+	"ue89zvsalexflmkf": {
+		"definition": "protection_shred+5%",
+		"x": 192,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"jtgx8pjp5jv9j681": {
+		"definition": "protection_shred+5%",
+		"x": 512,
+		"y": -184.75208614068026,
+		"root": false
+	},
+	"heb9ul9icqgbwekp": {
+		"definition": "protection_shred+5%",
+		"x": 512,
+		"y": 0,
+		"root": false
+	},
+	"8qpcclspqsegvu33": {
+		"definition": "protection_shred+5%",
+		"x": 640,
+		"y": -147.80166891254413,
+		"root": false
+	},
+	"twsc8st0fyzoek32": {
+		"definition": "protection_shred+5%",
+		"x": 640,
+		"y": -36.95041722813602,
+		"root": false
+	},
+	"82nluqczxkcu0b63": {
+		"definition": "protection_shred+5%",
+		"x": 640,
+		"y": -258.65292059695236,
+		"root": false
+	},
+	"a4rr7g1nimp69vty": {
+		"definition": "protection_shred+5%",
+		"x": 640,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"2nkpdp9zm3yal7w5": {
+		"definition": "toughness_shred+5%",
+		"x": 64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"kpefpseo8gsh4ryr": {
+		"definition": "toughness_shred+5%",
+		"x": 256,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"0c2y1q4hnyyjs8y3": {
+		"definition": "toughness_shred+5%",
+		"x": 256,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"l7gq4zjwfpl4hyh0": {
+		"definition": "toughness_shred+5%",
+		"x": 64,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"9lkkt3lac9ptlav0": {
+		"definition": "toughness_shred+5%",
+		"x": 160,
+		"y": 203.22729475474824,
+		"root": false
+	},
+	"debne7f1qufnimjp": {
+		"definition": "toughness_shred+5%",
+		"x": 160,
+		"y": 387.9793808954285,
+		"root": false
+	},
+	"w13c2eafvzujkxs9": {
+		"definition": "toughness_shred+5%",
+		"x": 160,
+		"y": 498.8306325798366,
+		"root": false
+	},
+	"3oc8m3ki8yery89r": {
+		"definition": "toughness_shred+5%",
+		"x": 96,
+		"y": 572.7314670361087,
+		"root": false
+	},
+	"1jmwmegdramnljjw": {
+		"definition": "toughness_shred+5%",
+		"x": 224,
+		"y": 572.7314670361087,
+		"root": false
+	},
+	"6swakxkpvjggc304": {
+		"definition": "toughness_shred+5%",
+		"x": 160,
+		"y": 609.6818842642447,
+		"root": false
+	},
+	"0i15aov79qxrkx7h": {
+		"definition": "resistance_shred+5%",
+		"x": -288,
+		"y": 18.47520861406801,
+		"root": false
+	},
+	"flxi0l7k2jvsphu9": {
+		"definition": "resistance_shred+5%",
+		"x": -288,
+		"y": 166.27687752661222,
+		"root": false
+	},
+	"joudysrxhchzvnbx": {
+		"definition": "resistance_shred+5%",
+		"x": -224,
+		"y": 92.37604307034013,
+		"root": false
+	},
+	"4btr86l1dhrkylja": {
+		"definition": "resistance_shred+5%",
+		"x": -352,
+		"y": 92.37604307034013,
+		"root": false
+	},
+	"s9qiqczg8gnb2qgk": {
+		"definition": "resistance_shred+5%",
+		"x": -288,
+		"y": 92.37604307034007,
+		"root": false
+	},
+	"a5h8xr8yk8f15r6e": {
+		"definition": "resistance_shred+5%",
+		"x": -416,
+		"y": 92.37604307034013,
+		"root": false
+	},
+	"dus8xc0qxe94bply": {
+		"definition": "resistance_shred+5%",
+		"x": -480,
+		"y": 92.37604307034013,
+		"root": false
+	},
+	"v2iv5icrcoarohbq": {
+		"definition": "resistance_shred+5%",
+		"x": -544,
+		"y": 92.37604307034007,
+		"root": false
+	},
+	"huqbnvm5syybfh9i": {
+		"definition": "resistance_shred+5%",
+		"x": -480,
+		"y": -18.475208614068038,
+		"root": false
+	},
+	"lexy8t6qw2dstkx3": {
+		"definition": "resistance_shred+5%",
+		"x": -480,
+		"y": 203.2272947547483,
+		"root": false
+	},
+	"o0cd2utvppn1f4qx": {
+		"definition": "resistance_shred+5%",
+		"x": -608,
+		"y": 92.37604307034013,
+		"root": false
+	},
+	"wd9bqt0ao4nzxnfo": {
+		"definition": "resistance_shred+5%",
+		"x": -576,
+		"y": 221.70250336881622,
+		"root": false
+	},
+	"quel1yu8xl9ssr8a": {
+		"definition": "lifesteal+1",
+		"x": -640,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"a0udvndrzbggjujx": {
+		"definition": "lifesteal+1",
+		"x": 0,
+		"y": -739.0083445627209,
+		"root": false
+	},
+	"8779br3by0gkimjh": {
+		"definition": "lifesteal+1",
+		"x": 640,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"5qzy2a51lqjnzh2e": {
+		"definition": "lifesteal+1",
+		"x": 640,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"jdoji3p2bgpez9nx": {
+		"definition": "lifesteal+1",
+		"x": 0,
+		"y": 739.0083445627209,
+		"root": false
+	},
+	"2usnv2rv9bhu3gi8": {
+		"definition": "lifesteal+1",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"3wei67fedoav05el": {
+		"definition": "lifesteal+1",
+		"x": -352,
+		"y": 535.7810498079727,
+		"root": false
+	},
+	"k14igpkr2cl6k0e2": {
+		"definition": "lifesteal+1",
+		"x": -640,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"a3gra8yzxupyj9e7": {
+		"definition": "lifesteal+1",
+		"x": -640,
+		"y": -36.95041722813602,
+		"root": false
+	},
+	"vcq5qwd2x5ufi1bf": {
+		"definition": "lifesteal+1",
+		"x": 288,
+		"y": -572.7314670361087,
+		"root": false
+	}
+}
