@@ -335,40 +335,124 @@
 		"y": -128,
 		"root": false
 	},
-	"gnxzdl2gtx7bawfw": {
+	"0oyj9j3f9kwih8a7": {
 		"definition": "bread",
-		"x": -166.27687752661217,
-		"y": 160,
+		"x": -128,
+		"y": 128,
 		"root": false
 	},
-	"956vv8n7nj1t3c32": {
+	"yz7lym86q19fk0ri": {
 		"definition": "apple",
-		"x": -221.7025033688163,
+		"x": 128,
+		"y": 128,
+		"root": false
+	},
+	"unxvtk8csrq0pe7x": {
+		"definition": "melon_slice",
+		"x": -192,
 		"y": 192,
 		"root": false
 	},
-	"pphgh2mgz59pzsvh": {
-		"definition": "melon_slice",
-		"x": -277.12812921102034,
-		"y": 224,
+	"od5yunpk6y96lk7g": {
+		"definition": "cooked_beef",
+		"x": 192,
+		"y": 192,
 		"root": false
 	},
-	"fw6fejellaln1f3k": {
-		"definition": "cooked_beef",
-		"x": -332.55375505322445,
+	"znuteu0azakf3hqk": {
+		"definition": "baked_potato",
+		"x": -256,
 		"y": 256,
 		"root": false
 	},
-	"r8txaf2r5a97vfc0": {
-		"definition": "baked_potato",
-		"x": -387.97938089542845,
-		"y": 288,
+	"p03ie5x2njfhlf70": {
+		"definition": "carrot",
+		"x": 256,
+		"y": 256,
 		"root": false
 	},
-	"96fbmx2pcqcrn359": {
-		"definition": "carrot",
-		"x": -443.40500673763256,
+	"o8v5c7dwepngs00a": {
+		"definition": "raw_porkchop",
+		"x": -320,
 		"y": 320,
+		"root": false
+	},
+	"f1upbv1vd0bu4fya": {
+		"definition": "salmon",
+		"x": 320,
+		"y": 320,
+		"root": false
+	},
+	"rbzyyxhu0af3b65f": {
+		"definition": "cod",
+		"x": -384,
+		"y": 384,
+		"root": false
+	},
+	"97kubmc8pnehtjrw": {
+		"definition": "cooked_salmon",
+		"x": 384,
+		"y": 384,
+		"root": false
+	},
+	"q2aytalvvwnc5ei2": {
+		"definition": "cooked_cod",
+		"x": -448,
+		"y": 448,
+		"root": false
+	},
+	"zer3g05so1adaayy": {
+		"definition": "cake",
+		"x": 448,
+		"y": 448,
+		"root": false
+	},
+	"fzqze7jk4ais1ia6": {
+		"definition": "cookie",
+		"x": -512,
+		"y": 512,
+		"root": false
+	},
+	"xm6gc3yrg4ohwf09": {
+		"definition": "dried_kelp",
+		"x": 512,
+		"y": 512,
+		"root": false
+	},
+	"c34sn4zf6z2f2gnp": {
+		"definition": "chicken",
+		"x": -384,
+		"y": 512,
+		"root": false
+	},
+	"drus4r13mykev0rx": {
+		"definition": "cooked_chicken",
+		"x": 384,
+		"y": 512,
+		"root": false
+	},
+	"dginfslh46ybcnvz": {
+		"definition": "potato",
+		"x": -256,
+		"y": 512,
+		"root": false
+	},
+	"pewyy791nply8q8a": {
+		"definition": "raw_mutton",
+		"x": 256,
+		"y": 512,
+		"root": false
+	},
+	"4kvf6m13ocf15fyo": {
+		"definition": "cooked_mutton",
+		"x": -128,
+		"y": 512,
+		"root": false
+	},
+	"z18qn7c8wyf88wpq": {
+		"definition": "sweet_berries",
+		"x": 128,
+		"y": 512,
 		"root": false
 	}
 }

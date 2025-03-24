@@ -117,7 +117,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "bow"
+				"item": "stone_sword"
 			}
 		},
 		"rewards": [
@@ -149,6 +149,7 @@
    			}
 		},
 		"description": "By unlocking this Skill you will Deal 5% more Knockback to Entities! This skill Costs 2 Points.",
+		"cost": 2,
 		"icon": {
 			"type": "item",
 			"data": {
@@ -295,7 +296,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "bow"
+				"item": "diamond_sword"
 			}
 		},
 		"rewards": [
@@ -398,7 +399,7 @@
         		"frame": "goal"
    			}
 		},
-		"description": "When using Wooden Sword, you receive '1' More XP",
+		"description": "When using Wooden Sword to kill the Entity, you receive '1' More XP",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -417,7 +418,7 @@
         		"frame": "goal"
    			}
 		},
-		"description": "When using Stone Sword, you receive '2' More XP",
+		"description": "When using Stone Sword to kill the Entity, you receive '2' More XP",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -436,7 +437,7 @@
         		"frame": "goal"
    			}
 		},
-		"description": "When using Golden Sword, you receive '2' More XP",
+		"description": "When using Golden Sword to kill the Entity, you receive '2' More XP",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -455,7 +456,7 @@
         		"frame": "goal"
    			}
 		},
-		"description": "When using Iron Sword, you receive '3' More XP",
+		"description": "When using Iron Sword to kill the Entity, you receive '3' More XP",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -474,7 +475,7 @@
         		"frame": "goal"
    			}
 		},
-		"description": "When using Diamond Sword, you receive '4' More XP",
+		"description": "When using Diamond Sword to kill the Entity, you receive '4' More XP",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -493,11 +494,125 @@
         		"frame": "goal"
    			}
 		},
-		"description": "When using Netherite Sword, you receive '5' More XP",
+		"description": "When using Netherite Sword to kill the Entity, you receive '5' More XP",
 		"icon": {
 			"type": "item",
 			"data": {
 				"item": "netherite_sword"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"bow": {
+		"title": "Bow",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Bow to kill the Entity, you receive '10' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"crossbow": {
+		"title": "Crossbow",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When using Crossbow to kill the Entity, you receive '7' More XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"enderman": {
+		"title": "Enderman",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you kill an Enderman you receive 5 XP.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "enderman_spawn_egg"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"elder_guardian": {
+		"title": "Elder Guardian",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you kill Elder Guardian you receive 50 XP.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "elder_guardian_spawn_egg"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"ender_dragon": {
+		"title": "Ender Dragon",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you kill Ender Dragon you receive 1000 XP.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_dragon_spawn_egg"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"warden": {
+		"title": "Warden",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you kill Warden you receive 100 XP.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "warden_spawn_egg"
 			}
 		},
 		"metadata": {

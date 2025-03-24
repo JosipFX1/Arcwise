@@ -18,7 +18,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attributes:axe_speed",
+					"attribute": "puffish_attributes:pickaxe_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -246,7 +246,7 @@
         		"frame": "challenge"
    			}
 		},
-		"description": "When you mine Iron Ore you receive Extra 2 XP",
+		"description": "When you mine Iron Ore you receive Extra 3 XP",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -308,6 +308,101 @@
 			"type": "item",
 			"data": {
 				"item": "redstone"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"emerald": {
+		"title": "Emerald",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "When you mine Emerald Ore you receive Extra 10 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "emerald"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"diamond": {
+		"title": "Diamond",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "When you mine Diamond Ore you receive Extra 3 XP (Why 3XP? Because an Diamond it self is an reward already)",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"gold": {
+		"title": "Gold",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "When you mine Gold Ore you receive Extra 3 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "raw_gold"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"nether_gold": {
+		"title": "Nether Gold",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "When you mine Nether Gold Ore you receive Extra 3 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "gold_nugget"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"quartz": {
+		"title": "Nether Quartz",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "When you mine Nether Quartz Ore you receive Extra 3 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "quartz"
 			}
 		},
 		"metadata": {

@@ -1,0 +1,185 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2 + 100, 400)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:break_block",
+			"data": {
+				"variables": {
+					"is_flower": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#flowers"
+								}
+							}
+						]
+					},
+					"is_cactus": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "cactus"
+								}
+							}
+						]
+					},
+					"is_bamboo": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "bamboo"
+								}
+							}
+						]
+					},
+					"is_short_grass": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "short_grass"
+								}
+							}
+						]
+					},
+					"is_tall_grass": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "tall_grass"
+								}
+							}
+						]
+					},
+					"is_seagrass": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "seagrass"
+								}
+							}
+						]
+					},
+					"are_crops": {
+						"operations": [
+							{
+								"type": "get_broken_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#crops"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_flower",
+						"expression": 1
+					},
+					{
+						"condition": "are_crops",
+						"expression": 1
+					},
+					{
+						"condition": "is_cactus",
+						"expression": 1
+					},
+					{
+						"condition": "is_bamboo",
+						"expression": 1
+					},
+					{
+						"condition": "is_short_grass",
+						"expression": 1
+					},
+					{
+						"condition": "is_tall_grass",
+						"expression": 1
+					},
+					{
+						"condition": "is_seagrass",
+						"expression": 1
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:fish_item",
+			"data": {
+				"variables": {
+					"is_fish": {
+						"operations": [
+							{
+								"type": "get_fished_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#fishes"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_fish",
+						"expression": 3
+					}
+				]
+			}
+		}
+	]
+}

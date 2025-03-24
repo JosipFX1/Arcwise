@@ -165,6 +165,71 @@
 								}
 							}
 						]
+					},
+					"is_emerald": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "emerald_ore"
+								}
+							}
+						]
+					},
+					"is_diamond": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "diamond_ore"
+								}
+							}
+						]
+					},
+					"is_gold": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "gold_ore"
+								}
+							}
+						]
+					},
+					"is_nether_gold": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "nether_gold_ore"
+								}
+							}
+						]
+					},
+					"is_quartz": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "nether_quartz_ore"
+								}
+							}
+						]
 					}
 				},
 				"experience": [ 
@@ -206,7 +271,7 @@
 					},
 					{
 						"condition": "is_iron",
-						"expression": 2
+						"expression": 3
 					},
 					{
 						"condition": "is_lapis",
@@ -214,6 +279,26 @@
 					},
 					{
 						"condition": "is_redstone",
+						"expression": 3
+					},
+					{
+						"condition": "is_emerald",
+						"expression": 10
+					},
+					{
+						"condition": "is_gold",
+						"expression": 3
+					},
+					{
+						"condition": "is_diamond",
+						"expression": 3
+					},
+					{
+						"condition": "is_quartz",
+						"expression": 3
+					},
+					{
+						"condition": "is_nether_gold",
 						"expression": 3
 					}
 				]

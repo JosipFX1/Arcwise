@@ -1,0 +1,126 @@
+{
+	"magic_damage+5%": {
+		"title": "+5% Magic Damage",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "+5% More Magic Damage, which allows to deal more Magic Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% More Magic Damage!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"magic_resistance+5%": {
+		"title": "+5% Magic Resistance",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "5% More Magic Resistance, become immune to Magic Attacks!",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:splash_potion"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Magic Resistance!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xucv5hwuz5e4wcef"
+		}
+	},
+	"magic_resistance_shred+5%": {
+		"title": "+5% Magic Resistance Shred",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "5% More Magic Resistance Shred, decreases Magic Res Attribute for the attacked entity making it easier to kill with Magic Damage!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "weakness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance_shred",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Magic Resistance Shred!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	},
+	"information": {
+		"title": "Information",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "What Deals Magic Damage? 'Instant Damage, Poison, Instant Health(Undead Mobs), E-Dragon Breath Attack, Evoker Fang, Conduit Attack'. Player can deal Instant Damage to Normal Mobs and Instant Health to Undead Mobs(Zombie,Skeleton) only with these 2 you can receive XP!",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "conduit"
+			}
+		},
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	}
+}

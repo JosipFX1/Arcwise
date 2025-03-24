@@ -104,6 +104,96 @@
 								}
 							}
 						]
+					},
+					"is_bow": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "bow"
+								}
+							}
+						]
+					},
+					"is_crossbow": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "bow"
+								}
+							}
+						]
+					},
+					"is_enderman": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "enderman"
+								}
+							}
+						]
+					},
+					"is_elder_guardian": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "elder_guardian"
+								}
+							}
+						]
+					},
+					"is_ender_dragon": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "ender_dragon"
+								}
+							}
+						]
+					},
+					"is_warden": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "warden"
+								}
+							}
+						]
 					}
 				},
 				"experience": [
@@ -133,12 +223,32 @@
 					{
 						"condition": "is_netherite_sword",
 						"expression": 5
+					},
+					{
+						"condition": "is_bow",
+						"expression": 10
+					},
+					{
+						"condition": "is_crossbow",
+						"expression": 7
+					},
+					{
+						"condition": "is_enderman",
+						"expression": 5
+					},
+					{
+						"condition": "is_elder_guardian",
+						"expression": 50
+					},
+					{
+						"condition": "is_warden",
+						"expression": 100
+					},
+					{
+						"condition": "is_ender_dragon",
+						"expression": 1000
 					}
-				],
-				"anti_farming": {
-					"limit_per_chunk": 15,
-					"reset_after_seconds": 60
-				}
+				]
 			}
 		}
 	]

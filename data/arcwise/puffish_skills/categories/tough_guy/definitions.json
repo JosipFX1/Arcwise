@@ -323,5 +323,271 @@
 		"metadata": {
 			"icon": "xuyt23tiuaaer78d"
 		}
+	},
+	"raw_porkchop": {
+		"title": "Raw Porkchop",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Raw Porkchop, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "porkchop"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"salmon": {
+		"title": "Raw Salmon",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Raw Salmon, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "salmon"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cod": {
+		"title": "Raw Cod",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Raw Cod, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cod"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cooked_salmon": {
+		"title": "Cooked Salmon",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cooked Salmon, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cooked_salmon"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cooked_cod": {
+		"title": "Cooked Cod",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cooked Cod, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cooked_cod"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cake": {
+		"title": "Cake",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cake, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cake"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cookie": {
+		"title": "Cookie",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cookie, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cookie"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"dried_kelp": {
+		"title": "Dried Kelp",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Dried Kelp, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "dried_kelp"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"chicken": {
+		"title": "Raw Chicken",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Raw Chicken, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "chicken"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cooked_chicken": {
+		"title": "Cooked Chicken",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cooked Chicken, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cooked_chicken"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"potato": {
+		"title": "Potato",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Potato, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "potato"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"raw_mutton": {
+		"title": "Raw Mutton",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Raw Mutton, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "mutton"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cooked_mutton": {
+		"title": "Cooked Mutton",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Cooked Mutton, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cooked_mutton"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"sweet_berries": {
+		"title": "Sweet Berries",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When eating Sweet Berries, you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sweet_berries"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
 	}
 }

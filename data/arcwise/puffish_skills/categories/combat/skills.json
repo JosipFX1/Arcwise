@@ -862,5 +862,41 @@
 		"x": -160,
 		"y": -384,
 		"root": false
+	},
+	"wa5ytnky7bklfynu": {
+		"definition": "bow",
+		"x": -96,
+		"y": -448,
+		"root": false
+	},
+	"7wj9grwkxpih3ihk": {
+		"definition": "crossbow",
+		"x": -32,
+		"y": -512,
+		"root": false
+	},
+	"ave1xfs7wkmzp3j5": {
+		"definition": "enderman",
+		"x": 64,
+		"y": 160,
+		"root": false
+	},
+	"kecizi9zbrvum2vu": {
+		"definition": "elder_guardian",
+		"x": 64,
+		"y": 96,
+		"root": false
+	},
+	"q3iywmrmx6mebet2": {
+		"definition": "warden",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"kl5ts1lmzo2cwfgc": {
+		"definition": "ender_dragon",
+		"x": 64,
+		"y": -32,
+		"root": false
 	}
 }

@@ -106,6 +106,175 @@
 							}
 						}
 					]
+				},
+					"is_raw_porkchop": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:porkchop"
+							}
+						}
+					]
+				},
+					"is_salmon": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:salmon"
+							}
+						}
+					]
+				},
+					"is_cod": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cod"
+							}
+						}
+					]
+				},
+					"is_cooked_salmon": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cooked_salmon"
+							}
+						}
+					]
+				},
+					"is_cooked_cod": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cooked_cod"
+							}
+						}
+					]
+				},
+					"is_cookie": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cookie"
+							}
+						}
+					]
+				},
+					"is_dried_kelp": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:dried_kelp"
+							}
+						}
+					]
+				},
+					"is_chicken": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:chicken"
+							}
+						}
+					]
+				},
+					"is_cooked_chicken": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cooked_chicken"
+							}
+						}
+					]
+				},
+					"is_raw_mutton": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:mutton"
+							}
+						}
+					]
+				},
+					"is_potato": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:potato"
+							}
+						}
+					]
+				},
+					"is_cooked_mutton": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:cooked_mutton"
+							}
+						}
+					]
+				},
+					"is_sweet_berry": {
+						"operations": [
+						{
+							"type": "get_eaten_item_stack"
+						},
+						{
+							"type": "puffish_skills:test",
+							"data": {
+								"item": "minecraft:sweet_berries"
+							}
+						}
+					]
 				}
 				},
 				"experience": [ 
@@ -132,6 +301,58 @@
 					{
 						"expression": 1,
 						"condition": "is_carrot"
+					},
+					{
+						"expression": 1,
+						"condition": "is_raw_porkchop"
+					},
+					{
+						"expression": 1,
+						"condition": "is_salmon"
+					},
+					{
+						"expression": 1,
+						"condition": "is_cod"
+					},
+					{
+						"expression": 1,
+						"condition": "is_cooked_salmon"
+					},
+					{
+						"expression": 1,
+						"condition": "is_cooked_cod"
+					},
+					{
+						"expression": 1,
+						"condition": "is_cookie"
+					},
+					{
+						"expression": 1,
+						"condition": "is_dried_kelp"
+					},
+					{
+						"expression": 1,
+						"condition": "is_chicken"
+					},
+					{
+						"expression": 1,
+						"condition": "is_cooked_chicken"
+					},
+					{
+						"expression": 1,
+						"condition": "is_raw_mutton"
+					},
+					{
+						"expression": 1,
+						"condition": "is_cooked_mutton"
+					},
+					{
+						"expression": 1,
+						"condition": "is_potato"
+					},
+					{
+						"expression": 1,
+						"condition": "is_sweet_berry"
 					}
 				]
 			}

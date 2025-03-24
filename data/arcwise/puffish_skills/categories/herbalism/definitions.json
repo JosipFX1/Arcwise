@@ -1,0 +1,222 @@
+{
+	"stamina+5%": {
+		"title": "+5% Stamina",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "challenge"
+   			}
+		},
+		"description": "+5% More Stamina, which allows to run for more and you won't get hungry so fast! This skill Costs 2 Points.",
+		"cost": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% More Stamina!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"healing+5%": {
+		"title": "+5% Healing",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Increases health that is restored by any kind of healing by 5%! This skill costs 2 Points",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Healing!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xucv5hwuz5e4wcef"
+		}
+	},
+	"jump+5%": {
+		"title": "+5% Jump",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "task"
+   			}
+		},
+		"description": "Jump 5% higher!",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "say Added 5% more Jump Height!"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iu1ntnep8ccz60al"
+		}
+	},
+	"flowers": {
+		"title": "Flowers",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you break/destroy a Flower you gain 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lily_of_the_valley"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"crops": {
+		"title": "Crops",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When harvesting Crops you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "pumpkin"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"bamboo": {
+		"title": "Bamboo",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "Got a bamboo farm? Perfect, when you destroy Bamboo it gives you 1 XP per destroyed Bamboo.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bamboo"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"cactus": {
+		"title": "Cactus",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you break cactus you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cactus"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"grass": {
+		"title": "Grass",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you break any type of Grass you receive 1 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "short_grass"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	},
+	"fishing": {
+		"title": "Fishing",
+		"frame": {
+    		"type": "advancement",
+    		"data": {
+        		"frame": "goal"
+   			}
+		},
+		"description": "When you catch a Fish you receive 3 XP",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "salmon"
+			}
+		},
+		"metadata": {
+			"icon": "xuyt23tiuaaer78d"
+		}
+	}
+}

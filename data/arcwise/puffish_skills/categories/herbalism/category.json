@@ -1,0 +1,10 @@
+{
+	"title": "Herbalsism",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "wheat"
+		}
+	},
+	"background": "minecraft:textures/block/hay_block_side.png"
+}

@@ -1,0 +1,386 @@
+{
+	"u1507bhf0qn47dbp": {
+		"definition": "stamina+5%",
+		"x": -384,
+		"y": 0,
+		"root": false
+	},
+	"jttos2vi70k6xawa": {
+		"definition": "stamina+5%",
+		"x": -352,
+		"y": 32,
+		"root": true
+	},
+	"fpfovpv1vepbv72r": {
+		"definition": "healing+5%",
+		"x": -352,
+		"y": 0,
+		"root": false
+	},
+	"ahpfrk489deozrtc": {
+		"definition": "healing+5%",
+		"x": -384,
+		"y": 32,
+		"root": false
+	},
+	"xw0frh21t5p9s9sf": {
+		"definition": "jump+5%",
+		"x": -448,
+		"y": 32,
+		"root": false
+	},
+	"r9o3o79vpmpostvx": {
+		"definition": "jump+5%",
+		"x": -448,
+		"y": 64,
+		"root": false
+	},
+	"bc4dl79cscqvppxd": {
+		"definition": "stamina+5%",
+		"x": -480,
+		"y": -32,
+		"root": false
+	},
+	"8idpkz1wcqoib2iu": {
+		"definition": "healing+5%",
+		"x": -480,
+		"y": -64,
+		"root": false
+	},
+	"y124atamd1710s60": {
+		"definition": "stamina+5%",
+		"x": -480,
+		"y": -96,
+		"root": false
+	},
+	"15y6t9jjxzajh0t1": {
+		"definition": "healing+5%",
+		"x": -512,
+		"y": 0,
+		"root": false
+	},
+	"8riqofl0o127i5fu": {
+		"definition": "stamina+5%",
+		"x": -512,
+		"y": 32,
+		"root": false
+	},
+	"w2trri4o76ak5qw8": {
+		"definition": "healing+5%",
+		"x": -512,
+		"y": 64,
+		"root": false
+	},
+	"yfhfymbd50tlzf2r": {
+		"definition": "jump+5%",
+		"x": -512,
+		"y": 96,
+		"root": false
+	},
+	"plsubqm5og6okh8h": {
+		"definition": "jump+5%",
+		"x": -544,
+		"y": 96,
+		"root": false
+	},
+	"t1lf8om95xgeidpv": {
+		"definition": "stamina+5%",
+		"x": -544,
+		"y": 64,
+		"root": false
+	},
+	"ik32num11bjgclrt": {
+		"definition": "stamina+5%",
+		"x": -384,
+		"y": 96,
+		"root": false
+	},
+	"a60dfnn603hw8j66": {
+		"definition": "healing+5%",
+		"x": -384,
+		"y": 128,
+		"root": false
+	},
+	"cm378cpa56e1h1gy": {
+		"definition": "jump+5%",
+		"x": -384,
+		"y": 160,
+		"root": false
+	},
+	"l0twraj0nnt8xent": {
+		"definition": "jump+5%",
+		"x": -416,
+		"y": 160,
+		"root": false
+	},
+	"y31ki63wds9gmftz": {
+		"definition": "stamina+5%",
+		"x": -416,
+		"y": 128,
+		"root": false
+	},
+	"tr01dkhqxxvi71c8": {
+		"definition": "healing+5%",
+		"x": -288,
+		"y": 96,
+		"root": false
+	},
+	"c4sr034s1h4c1sen": {
+		"definition": "stamina+5%",
+		"x": -256,
+		"y": 96,
+		"root": false
+	},
+	"y3bw5iplyfzv3duj": {
+		"definition": "jump+5%",
+		"x": -256,
+		"y": 128,
+		"root": false
+	},
+	"y4bez95zzfdhxnkm": {
+		"definition": "jump+5%",
+		"x": -288,
+		"y": 128,
+		"root": false
+	},
+	"g386d0ylo1t54fuu": {
+		"definition": "jump+5%",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"a8bvhwrhpke6m73o": {
+		"definition": "jump+5%",
+		"x": -224,
+		"y": 0,
+		"root": false
+	},
+	"3mm4e2hl9y2ltp4o": {
+		"definition": "healing+5%",
+		"x": -224,
+		"y": -32,
+		"root": false
+	},
+	"szovvswm8z5fxgw4": {
+		"definition": "stamina+5%",
+		"x": -256,
+		"y": -32,
+		"root": false
+	},
+	"v82nml0lr0wtxg7e": {
+		"definition": "healing+5%",
+		"x": -256,
+		"y": -64,
+		"root": false
+	},
+	"wpdcgqkksnvp6fst": {
+		"definition": "stamina+5%",
+		"x": -288,
+		"y": -96,
+		"root": false
+	},
+	"x7w4c9t0kwgdt5fg": {
+		"definition": "stamina+5%",
+		"x": 256,
+		"y": 160,
+		"root": false
+	},
+	"7h9uhzyqvte865f6": {
+		"definition": "stamina+5%",
+		"x": 288,
+		"y": 160,
+		"root": true
+	},
+	"iuszjbz3l51o8lps": {
+		"definition": "stamina+5%",
+		"x": 320,
+		"y": 160,
+		"root": false
+	},
+	"gekihi9uoohn1ozw": {
+		"definition": "healing+5%",
+		"x": 352,
+		"y": 160,
+		"root": false
+	},
+	"vrpvigwfouxsrggf": {
+		"definition": "jump+5%",
+		"x": 384,
+		"y": 128,
+		"root": false
+	},
+	"vmkep9hsgu0wkqih": {
+		"definition": "stamina+5%",
+		"x": 416,
+		"y": 128,
+		"root": false
+	},
+	"mbocw2p23hgfkp52": {
+		"definition": "healing+5%",
+		"x": 448,
+		"y": 96,
+		"root": false
+	},
+	"1wab5yourcjhddcg": {
+		"definition": "jump+5%",
+		"x": 480,
+		"y": 96,
+		"root": false
+	},
+	"9w6ahf5wm015qs8f": {
+		"definition": "stamina+5%",
+		"x": 512,
+		"y": 64,
+		"root": false
+	},
+	"3ynon3zbde3s07tk": {
+		"definition": "healing+5%",
+		"x": 544,
+		"y": 32,
+		"root": false
+	},
+	"r8y6mi45aplrdp9d": {
+		"definition": "jump+5%",
+		"x": 544,
+		"y": 0,
+		"root": false
+	},
+	"37w1mhbqhndykig9": {
+		"definition": "jump+5%",
+		"x": 544,
+		"y": -32,
+		"root": false
+	},
+	"5j6d92v0n2j4uqp0": {
+		"definition": "healing+5%",
+		"x": 544,
+		"y": -64,
+		"root": false
+	},
+	"42af0qb4j76luuxe": {
+		"definition": "stamina+5%",
+		"x": 512,
+		"y": -96,
+		"root": false
+	},
+	"v5yzgh6nzy4fs4lm": {
+		"definition": "jump+5%",
+		"x": 480,
+		"y": -128,
+		"root": false
+	},
+	"me0nizjjfplkuc00": {
+		"definition": "healing+5%",
+		"x": 448,
+		"y": -128,
+		"root": false
+	},
+	"mpymqxo604lfik4k": {
+		"definition": "stamina+5%",
+		"x": 416,
+		"y": -128,
+		"root": false
+	},
+	"qe3hybuvbnlt5wdc": {
+		"definition": "jump+5%",
+		"x": 384,
+		"y": -128,
+		"root": false
+	},
+	"qx8ozvrq4egow7d9": {
+		"definition": "healing+5%",
+		"x": 352,
+		"y": -96,
+		"root": false
+	},
+	"cqsr0yeei0n6yc2k": {
+		"definition": "stamina+5%",
+		"x": 320,
+		"y": -96,
+		"root": false
+	},
+	"pzeev2m56h5sx5qp": {
+		"definition": "jump+5%",
+		"x": 288,
+		"y": -96,
+		"root": false
+	},
+	"7vkfmviux4hz6paj": {
+		"definition": "healing+5%",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"k8ty2c8054l0phwe": {
+		"definition": "stamina+5%",
+		"x": 224,
+		"y": -32,
+		"root": false
+	},
+	"quuy4vrh1rn7a8zv": {
+		"definition": "jump+5%",
+		"x": 192,
+		"y": 0,
+		"root": false
+	},
+	"1yt13ajjwtk68gxg": {
+		"definition": "healing+5%",
+		"x": 192,
+		"y": 32,
+		"root": false
+	},
+	"s2mrxqlhfnb1jzyr": {
+		"definition": "stamina+5%",
+		"x": 192,
+		"y": 64,
+		"root": false
+	},
+	"hhre6yfid3wuby3d": {
+		"definition": "jump+5%",
+		"x": 192,
+		"y": 96,
+		"root": false
+	},
+	"nmtb63vbvnweyop6": {
+		"definition": "healing+5%",
+		"x": 224,
+		"y": 128,
+		"root": false
+	},
+	"2zcduu9armuhpo0q": {
+		"definition": "flowers",
+		"x": 0,
+		"y": 192,
+		"root": false
+	},
+	"azjjrwpwng1hufqb": {
+		"definition": "crops",
+		"x": 0,
+		"y": 64,
+		"root": false
+	},
+	"zp9k3rxtlcao54hw": {
+		"definition": "bamboo",
+		"x": 0,
+		"y": -64,
+		"root": false
+	},
+	"gjqcmrqn5cfsfz3c": {
+		"definition": "cactus",
+		"x": -96,
+		"y": -160,
+		"root": false
+	},
+	"ngjssxdjoahnoik4": {
+		"definition": "grass",
+		"x": 96,
+		"y": -160,
+		"root": false
+	},
+	"6jr2zrv1hieuzssg": {
+		"definition": "fishing",
+		"x": 0,
+		"y": -288,
+		"root": false
+	}
+}

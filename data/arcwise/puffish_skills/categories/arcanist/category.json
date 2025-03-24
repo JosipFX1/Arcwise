@@ -1,0 +1,10 @@
+{
+	"title": "Arcanist",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "dragon_breath"
+		}
+	},
+	"background": "minecraft:textures/block/sculk_catalyst_top.png"
+}

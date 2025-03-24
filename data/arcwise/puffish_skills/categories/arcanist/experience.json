@@ -1,0 +1,46 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2 + 100, 400)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"is_magic": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "indirect_magic"
+								}
+							}
+						]
+					},
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_magic",
+						"expression": "damage * 3"
+					}
+				]
+			}
+		}
+	]
+}
